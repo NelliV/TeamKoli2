@@ -1,0 +1,21 @@
+[{
+	"Merkki": "iPhone 7",
+	"Hinta": 900,
+	"Varasto": 35,
+	"Kuvaus": "Muistia 256 Gigatavua. Näppärä puhelin, nuorten suosikki."
+},{
+	"Merkki": "OnePlus 3",
+	"Hinta": 400,
+	"Varasto": 75,
+	"Kuvaus": "Muistia 64 Gigatavua. Pitkä akukesto, 5/5!"
+},{
+	"Merkki": "OnePlus 3T",
+	"Hinta": 400,
+	"Varasto": 62,
+	"Kuvaus": "Muistia 64 Gigatavua Pitkä akunkesto, suosittu puhelin!"
+},{
+	"Merkki": "iPhone 6s Plus",
+	"Hinta": 800,
+	"Varasto": 9,
+	"Kuvaus": "Muistia 128 Gigatavua, kauniita värejä tarjolla."
+}]

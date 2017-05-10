@@ -1,0 +1,156 @@
+body {
+  padding-top: 0px;
+  margin-left:auto;
+  margin-right:auto;
+	border-top:50px solid #6fd746;
+}
+.starter-template {
+  padding: 30px 15px;
+  text-align:justify;
+}
+
+
+
+
+
+a{
+	color:#ffffff;
+}
+
+a.norm:link {
+	color:#000000;
+	font-family:arial;
+	font-weight:bold;
+	background-color:#006887;
+	text-align:center;
+	display:inline-block;
+	}
+a.norm:hover {
+	color:#000000;
+	font-family:arial;
+	font-weight:bold;
+	background-color:#0089b2;
+	text-align:center;
+	text-decoration:none;
+	display:inline-block;
+	}	
+
+
+a.one:link {
+	color:#ffffff;
+	font-size: 110px;
+	font-family:arial;
+	font-weight:bold;
+	background-color:#006887;
+	width:100%;
+	text-align:center;
+	display:inline-block;
+	}
+a.one:hover {
+	color:#ffffff;
+	font-size: 110px;
+	font-family:arial;
+	font-weight:bold;
+	background-color:#0089b2;
+	width:100%;
+	text-align:center;
+	text-decoration:none;
+	display:inline-block;
+	}	
+	
+	
+	
+	
+	
+	
+a.two:link {
+	color:#ffffff;
+	font-size: 110px;
+	font-family:arial;
+	font-weight:bold;
+	background-color:#e60e46;
+	width:100%;
+	text-align:center;
+	display:inline-block;
+	}
+a.two:hover {
+	color:#ffffff;
+	font-size: 110px;
+	font-family:arial;
+	font-weight:bold;
+	background-color:#f03062;
+	width:100%;
+	text-align:center;
+	display:inline-block;
+	text-decoration:none;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+a.three:link {
+	color:#ffffff;
+	font-size: 110px;
+	font-family:arial;
+	font-weight:bold;
+	background-color:#b6ce30;
+	width:100%;
+	text-align:center;
+	display:inline-block;
+	}
+a.three:hover {
+	color:#ffffff;
+	font-size: 110px;
+	font-family:arial;
+	font-weight:bold;
+	background-color:#c1d746;
+	width:100%;
+	text-align:center;
+	display:inline-block;
+	text-decoration:none;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+a.four:link {
+	color:#ffffff;
+	font-size: 110px;
+	font-family:arial;
+	font-weight:bold;
+	background-color:#9f9f9f;
+	width:100%;
+	text-align:center;
+	display:inline-block;
+	}
+a.four:hover {
+	color:#ffffff;
+	font-size: 110px;
+	font-family:arial;
+	font-weight:bold;
+	background-color:#b0b0b0;
+	width:100%;
+	text-align:center;
+	display:inline-block;
+	text-decoration:none;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

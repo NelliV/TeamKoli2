@@ -1,0 +1,40 @@
+{
+“survey_id”: 1,
+“survey_name”: “Ruokailu toukokuussa 2017”,
+”questions”: 
+[
+{		
+	"question_id": 1,	
+        "survey_id": 1,
+        "question_type_name": "Textbox",
+	"question": "Arvioi viikon ruuat omin sanoin",
+	"choices": 
+},
+{		
+	"question_id": 2,	
+        "survey_id": 1,
+        "question_type_name": "Multichoice",
+	"question": "Oliko ruoka hyvää tänään?",
+	"choices": [
+{"option_id": 1, "question_id": 2, "optionchoice": ”Kyllä” }, 
+{"option_id": 2, "question_id": 2, "optionchoice": ”Ei” }, 
+{"option_id": 3, "question_id": 2, "optionchoice": ”En tiedä” }
+]
+},
+{		
+	"question_id": 3,	
+        "survey_id": 1,
+        "question_type_name": "Multichoice",
+	"question": "Arvioi tiistain ruoka (1-5?",
+	"choices": [
+{"option_id": 1, "question_id": 3, "optionchoice": 1 }, 
+{"option_id": 2, "question_id": 3, "optionchoice": 2 }, 
+{"option_id": 3, "question_id": 3, "optionchoice": 3 } ,
+{"option_id": 4, "question_id": 3, "optionchoice": 4 } ,
+{"option_id": 5, "question_id": 3, "optionchoice": 5 }
+ ]
+}
+
+
+]
+}
