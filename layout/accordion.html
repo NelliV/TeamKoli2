@@ -7,9 +7,45 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="">
     <meta name="author" content="">
+	
 
+	
     <title>Kyselylomake</title>
 
+	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script>
+		$( function() {
+		$( "#accordion" ).accordion();
+	} );
+	</script>	
+	
+
+<script>
+/* {"id":1,
+"kysymysteksti":"Millainen on tiimin työskentelyilmapiiri tällä hetkellä?",
+"kysely":{"id":1,"nimi":null,"kuvaus":null},
+"tyyppi":"avoin"}
+
+*/
+
+$(document).ready(function(){
+
+$("#panel1").click(function(){
+    $.getJSON("http://proto317.haaga-helia.fi:8080/kysely/kysymykset/kampus", function(result){ 
+		$.each(result, function(i, field){
+            $("panel1").append(field + " ");
+        });
+    });
+}); 
+
+
+});
+
+
+</script>
+	
     <!-- Bootstrap core CSS -->
     <link href="bootstrap.min.css" rel="stylesheet">
 
@@ -45,10 +81,57 @@
 		<b>MUU PALAUTE</b> Vapaamuotoinen kirjallinen palaute! Risut, ruusut, kehut ja kaikki kehitysideat tänne<br><br>
 		
 		
-		<a class="one" href="">KAMPUS</button><br>
-		<a class="two" href="">KOULUTUS</a><br>
-		<a class="three" href="">OPISKELIJAELÄMÄ</a><br>
-		<a class="four" href="">OMA PALAUTE</a><br>
+<div class="panel-group" id="accordion">
+    <div class="panel panel-default">
+        <div class="panel-heading1">
+            <h4 class="panel-title">
+                <a class="accordion-toggle text-normalize" data-toggle="collapse" data-parent="#accordion" href="#panel1"><i class="fa fa-minus text-primary"></i> KAMPUS</a>
+            </h4>
+        </div>
+        <div id="panel1" class="panel-collapse collapse">
+            <div class="panel-body">Contents panel 1</div>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading2">
+            <h4 class="panel-title">
+                <a class="accordion-toggle text-normalize" data-toggle="collapse" data-parent="#accordion" href="#panel2"><i class="fa fa-plus text-primary"></i> KOULUTUS</a>
+            </h4>
+        </div>
+        <div id="panel2" class="panel-collapse collapse">
+            <div class="panel-body">Contents panel 2</div>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading3">
+            <h4 class="panel-title">
+                <a class="accordion-toggle text-normalize" data-toggle="collapse" data-parent="#accordion" href="#panel3"><i class="fa fa-plus text-primary"></i> OPISKELIJAELÄMÄ</a>
+            </h4>
+        </div>
+        <div id="panel3" class="panel-collapse collapse">
+            <div class="panel-body">Contents panel 3</div>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading4">
+            <h4 class="panel-title">
+                <a class="accordion-toggle text-normalize" data-toggle="collapse" data-parent="#accordion" href="#panel4"><i class="fa fa-plus text-primary"></i> OMA PALAUTE</a>
+            </h4>
+        </div>
+        <div id="panel4" class="panel-collapse collapse">
+            <div class="panel-body">Contents panel 3</div>
+        </div>
+    </div>
+    
+</div>
+		
+		
+		
+		
+		
+		
+		
+		
 		
 
 
@@ -61,62 +144,6 @@
     </div><!-- /.container -->
 
 
-	
-	<!-- The Modal -->
-	<div id="myModal" class="modal">
-
-	
-		<!-- Modal content -->
-		<div class="modal-content">
-			<span class="close">&times;</span>
-			<p>Some text in the Modal..</p>
-		</div>
-
-		
-	</div>
-	
-<script>
-	// Get the modal
-	var modal = document.getElementById('myModal');
-
-	// Get the button that opens the modal
-	var btn = document.getElementById("myBtn");
-
-	// Get the <span> element that closes the modal
-	var span = document.getElementsByClassName("close")[0];
-
-	// When the user clicks on the button, open the modal
-	btn.onclick = function() {
-		modal.style.display = "block";
-	}
-
-	// When the user clicks on <span> (x), close the modal
-	span.onclick = function() {
-		modal.style.display = "none";
-	}
-
-	// When the user clicks anywhere outside of the modal, close it
-	window.onclick = function(event) {
-		if (event.target == modal) {
-			modal.style.display = "none";
-		}
-	}
-</script>
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 	
 	
 	

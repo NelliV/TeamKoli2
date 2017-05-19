@@ -10,12 +10,12 @@ body {
 }
 
 
-
-
-
-a{
-	color:#ffffff;
+a:accordion-toggle text-normalize:hover{
+	text-decoration:none;
 }
+
+
+
 
 a.norm:link {
 	color:#000000;
@@ -33,6 +33,7 @@ a.norm:hover {
 	text-align:center;
 	text-decoration:none;
 	display:inline-block;
+	text-decoration:none;
 	}	
 
 
@@ -45,6 +46,7 @@ a.one:link {
 	width:100%;
 	text-align:center;
 	display:inline-block;
+	border:0px;
 	}
 a.one:hover {
 	color:#ffffff;
@@ -145,12 +147,75 @@ a.four:hover {
 	text-decoration:none;
 	}
 	
+a:focus, a:hover {
+	text-decoration:none;
+}
 	
+.accordion{
+heightStyle: "content";
+}
 	
+.panel-title{
+	font-size:xx-large;
+	font-family:arial;
+	font-weight:bold;
+	color:#ffffff;
+}
+
+.panel-title:hover{
+	font-size:xx-large;
+	font-family:arial;
+	font-weight:bold;
+	color:#ffffff;
+	text-decoration:none;
+}	
 	
-	
-	
-	
-	
+.panel > .panel-heading1 {
+	color:#ffffff;
+	font-family:arial;
+	font-weight:bold;
+	background-color:#006887;
+	width:100%;
+	text-align:center;
+	display:inline-block;
+	border:0px;
+	text-decoration:none;
+	}
+.panel > .panel-heading2 {
+	color:#ffffff;
+	font-family:arial;
+	font-weight:bold;
+	background-color:#e60e46;
+	width:100%;
+	text-align:center;
+	display:inline-block;
+	text-decoration:none;
+	}
+.panel > .panel-heading4 {	
+	color:#ffffff;
+	font-family:arial;
+	font-weight:bold;
+	background-color:#b6ce30;
+	width:100%;
+	text-align:center;
+	display:inline-block;
+	text-decoration:none;
+	}
+.panel > .panel-heading3 {		
+	color:#ffffff;
+	font-family:arial;
+	font-weight:bold;
+	background-color:#9f9f9f;
+	width:100%;
+	text-align:center;
+	display:inline-block;
+	text-decoration:none;
+	}
+.panel-body{
+	padding:50px;
+}
+.collapse{
+	border:0px;
+}
 	
 	
